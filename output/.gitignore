@@ -1,0 +1,12 @@
+# Ignore logs
+logs/sapache_Access.log
+
+# Ignore reports generated locally
+output/soc_report.txt
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+venv
+package-lock.json
+docker-compose.override.yml

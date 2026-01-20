@@ -1,0 +1,35 @@
+==== SOC ANALYST REPORT ====
+
+🔎 Top 5 Suspicious IPs:
+
+IP: 66.249.73.135 → 3 requests
+User Agents: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+Status Codes: {'200': 1, '404': 2}
+Analysis: ℹ️ Normal / Low Risk
+
+IP: 192.168.1.10 → 2 requests
+User Agents: curl/7.64.1
+Status Codes: {'401': 2}
+Analysis: ℹ️ Normal / Low Risk
+
+IP: 172.16.0.5 → 2 requests
+User Agents: python-requests/2.22.0
+Status Codes: {'403': 2}
+Analysis: ⚠️ Unauthorized Access Attempts
+
+IP: 45.55.23.11 → 2 requests
+User Agents: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+Status Codes: {'200': 2}
+Analysis: ℹ️ Normal / Low Risk
+
+IP: 103.45.67.89 → 2 requests
+User Agents: Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+Status Codes: {'200': 2}
+Analysis: ℹ️ Normal / Low Risk
+
+
+🤖 Suspicious User Agents Detected:
+- Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+- curl/7.64.1
+- Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+- python-requests/2.22.0
